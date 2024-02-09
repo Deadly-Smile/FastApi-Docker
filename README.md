@@ -1,17 +1,14 @@
 # FastApi-Docker
-Let's dockerise this son o brillient piece of code
 
 ## How to setup docker
 ### To build
 ```bash
-docker build -t myapp .
-# myapp is image nme
+docker-compose build
 ```
 
 ### To run
 ```bash
-docker run -d --name mycon -p 8000:80 myapp
-# mycon is container name
+docker-compose up
 ```
 
 ## Note
